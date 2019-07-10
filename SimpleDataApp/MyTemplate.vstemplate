@@ -1,0 +1,49 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SimpleDataApp</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SimpleDataApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SimpleDataApp.csproj" File="SimpleDataApp.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Common.cs">Common.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FillOrCancel.cs">FillOrCancel.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FillOrCancel.Designer.cs">FillOrCancel.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FillOrCancel.resx">FillOrCancel.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Model.edmx">Model.edmx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Model.Context.tt">Model.Context.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Model.Context.cs">Model.Context.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Model.Designer.cs">Model.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Model.edmx.diagram">Model.edmx.diagram</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Model.tt">Model.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Livestock.cs">Livestock.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Model.cs">Model.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Navigation.cs">Navigation.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Navigation.Designer.cs">Navigation.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Navigation.resx">Navigation.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="NewCustomer.cs">NewCustomer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="NewCustomer.Designer.cs">NewCustomer.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="NewCustomer.resx">NewCustomer.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SimpleDataApp_TemporaryKey.pfx">SimpleDataApp_TemporaryKey.pfx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
